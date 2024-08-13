@@ -52,7 +52,9 @@ a:hover{
     overflow: hidden;
     position: relative;
 }
-
+.item{
+    width: 100%;
+}
 .carousel .list .item{
     width: 180px;
     height: 250px;
@@ -62,7 +64,7 @@ a:hover{
     left: 70%;
     border-radius: 20px;
     box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
-    background-position: 50% 50%;
+    background-position: 38% 38%;
     background-size: cover;
     z-index: 100;
     transition: 1s;
@@ -121,16 +123,17 @@ a:hover{
 .content .title{
     font-size: 100px;
     text-transform: uppercase;
-    color: #14ff72cb;
+    color: #be185d;
     font-weight: bold;
     line-height: 1;
-
+    text-shadow: 3px 4px 4px rgba(255, 255, 255, 0.8);
     opacity: 0;
     animation: animate 1s ease-in-out 0.3s 1 forwards;
 }
 
 .content .name{
     font-size: 100px;
+    color: #be185d;
     text-transform: uppercase;
     font-weight: bold;
     line-height: 1;
@@ -145,9 +148,14 @@ a:hover{
     margin-bottom: 20px;
     font-size: 18px;
     margin-left: 5px;
-
+    text-shadow: 3px 4px 4px rgba(204, 203, 137, 0.8);
+    font-weight: 700;
+color: rgb(252, 250, 247);
     opacity: 0;
     animation: animate 1s ease-in-out 0.9s 1 forwards;
+}
+#plain{
+ color: black;
 }
 
 .content .btn{
@@ -171,15 +179,15 @@ a:hover{
 
 .content .btn button:nth-child(2){
     background: transparent;
-    color: #14ff72cb;
+    color: #facc15;
     border: 2px solid #fff;
     transition: 0.3s;
 }
 
 .content .btn button:nth-child(2):hover{
-    background-color: #14ff72cb;
+    background-color: #facc15;
     color: #fff;
-    border-color: #14ff72cb;
+    border-color: #facc15;
 }
 
 
@@ -246,7 +254,7 @@ a:hover{
     z-index: 1000;
     width: 0%;
     height: 4px;
-    background-color: #14ff72cb;
+    background-color: #713f12;
     left: 0;
     top: 0;
     animation: runningTime 7s linear 1 forwards;
